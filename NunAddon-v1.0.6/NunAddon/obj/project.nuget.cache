@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "d/RKKQBlrhk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tungs\\Downloads\\NunAddon-source-v1.0.6-clean-lobby-test\\NunAddon-v1.0.6\\NunAddon\\NunAddon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tungs\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tungs\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tungs\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

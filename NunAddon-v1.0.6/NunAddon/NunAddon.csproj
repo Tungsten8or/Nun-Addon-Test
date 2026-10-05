@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>NunAddon</AssemblyName>
+    <RootNamespace>NunAddon</RootNamespace>
+    <AmongUs Condition="'$(AmongUs)'==''">C:\Program Files (x86)\Steam\steamapps\common\Among Us</AmongUs>
+    <Interop>$(AmongUs)\BepInEx\interop</Interop>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx.Core" HintPath="$(AmongUs)\BepInEx\core\BepInEx.Core.dll" Private="false" />
+    <Reference Include="BepInEx.Unity.IL2CPP" HintPath="$(AmongUs)\BepInEx\core\BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(AmongUs)\BepInEx\core\0Harmony.dll" Private="false" />
+    <Reference Include="Il2CppInterop.Runtime" HintPath="$(AmongUs)\BepInEx\core\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="MiraAPI" HintPath="$(AmongUs)\BepInEx\plugins\MiraAPI.dll" Private="false" />
+    <Reference Include="Reactor" HintPath="$(AmongUs)\BepInEx\plugins\Reactor.dll" Private="false" />
+    <Reference Include="TownOfUsMira" HintPath="$(AmongUs)\BepInEx\plugins\TownOfUsMira.dll" Private="false" />
+
+    <Reference Include="Assembly-CSharp" HintPath="$(Interop)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="Il2Cppmscorlib" HintPath="$(Interop)\Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="UnityEngine" HintPath="$(Interop)\UnityEngine.dll" Private="false" Condition="Exists('$(Interop)\UnityEngine.dll')" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(Interop)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="UnityEngine.InputLegacyModule" HintPath="$(Interop)\UnityEngine.InputLegacyModule.dll" Private="false" Condition="Exists('$(Interop)\UnityEngine.InputLegacyModule.dll')" />
+    <Reference Include="UnityEngine.Physics2DModule" HintPath="$(Interop)\UnityEngine.Physics2DModule.dll" Private="false" Condition="Exists('$(Interop)\UnityEngine.Physics2DModule.dll')" />
+    <Reference Include="UnityEngine.UIModule" HintPath="$(Interop)\UnityEngine.UIModule.dll" Private="false" Condition="Exists('$(Interop)\UnityEngine.UIModule.dll')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Nun.png" />
+  </ItemGroup>
+</Project>

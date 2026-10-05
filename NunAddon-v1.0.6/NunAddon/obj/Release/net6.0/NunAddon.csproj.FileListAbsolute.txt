@@ -1,0 +1,12 @@
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\bin\Release\net6.0\NunAddon.deps.json
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\bin\Release\net6.0\NunAddon.dll
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\bin\Release\net6.0\NunAddon.pdb
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.csproj.AssemblyReference.cache
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.AssemblyInfoInputs.cache
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.AssemblyInfo.cs
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.csproj.CoreCompileInputs.cache
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.dll
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\refint\NunAddon.dll
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\NunAddon.pdb
+C:\Users\Tungs\Downloads\NunAddon-source-v1.0.6-clean-lobby-test\NunAddon-v1.0.6\NunAddon\obj\Release\net6.0\ref\NunAddon.dll
